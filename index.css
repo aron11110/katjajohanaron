@@ -1,0 +1,78 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    /*
+       CSS comment
+       The box-sizing CSS property sets how the total width and height of an element are calculated. 
+       If you set box-sizing: border-box; on an element, padding, and border are included in the width and height:
+    */
+  }
+
+nav {
+    display:flex;
+    justify-content:space-between;
+    align-self:center;  
+    color:green;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:10px;
+    padding-right:10px;
+    border: 1px solid #646174;
+    background-color: #a2ccea;
+    border-radius: 10px;
+}
+nav div{
+    display:flex;
+    align-self:center;
+}
+
+a {
+    color: #34495e;
+    text-decoration: none;
+    }
+
+.mainPart {
+    display:flex;
+    justify-content:space-between;
+}
+.sideBar {
+    border: 1px solid #646174;
+    background-color: #a2ccea;
+    width:20%;
+    border-radius: 10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.posts {
+    width:40%;
+}
+article {
+    border: 1px solid #646174;
+    background-color: #a2ccea;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+}
+article > * {
+    margin-top:4px;
+}
+header {
+    display:flex;
+    justify-content:space-between;
+}
+header > span{
+    display:flex;
+    align-self:center;
+}
+.postImage img{
+    width: 100%;
+    height:38%; 
+}
+footer {
+    display:flex;
+    justify-content:center;
+    border: 1px solid #646174;
+    background-color: #a2ccea;
+    border-radius: 10px;
+    margin-top: 10px;
+}
