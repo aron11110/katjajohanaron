@@ -1,34 +1,39 @@
 * {
     font-family: sans-serif;
     box-sizing: border-box;
-    /*
-       CSS comment
-       The box-sizing CSS property sets how the total width and height of an element are calculated. 
-       If you set box-sizing: border-box; on an element, padding, and border are included in the width and height:
-    */
   }
 
+body {
+    background-color: #D8E9A8;
+}
 nav {
     display:flex;
     justify-content:space-between;
     align-self:center;  
-    color:green;
-    padding-top:5px;
-    padding-bottom:5px;
+    color:#191A19;
     padding-left:10px;
     padding-right:10px;
-    border: 1px solid #646174;
-    background-color: #a2ccea;
+    border: 1px solid #1E5128;
+    background-color: #4E9F3D;
     border-radius: 10px;
+    box-shadow: 2px 2px 6px #000000;
 }
 nav div{
     display:flex;
     align-self:center;
 }
-
+a ~ h4{
+    color:#1E5128;
+}
 a {
-    color: #34495e;
+    color: #191A19;
     text-decoration: none;
+    text-shadow: 2px 2px 6px #000000;
+    border-radius: 10px;
+    }
+
+a:hover {
+    background-color: #D8E9A8;
     }
 
 .mainPart {
@@ -36,23 +41,26 @@ a {
     justify-content:space-between;
 }
 .sideBar {
-    border: 1px solid #646174;
-    background-color: #a2ccea;
+    border: 1px solid #1E5128;
+    background-color: #4E9F3D;
     width:20%;
     border-radius: 10px;
     margin-top:10px;
     margin-bottom:10px;
+    box-shadow: 2px 2px 6px #000000;
 }
 .posts {
-    width:40%;
+    width:50%;
 }
 article {
-    border: 1px solid #646174;
-    background-color: #a2ccea;
+    border: 1px solid #1E5128;
+    background-color: #4E9F3D;
     border-radius: 10px;
     margin: 10px;
     padding: 5px;
+    box-shadow: 2px 2px 6px #000000;
 }
+
 article > * {
     margin-top:4px;
 }
@@ -64,15 +72,20 @@ header > span{
     display:flex;
     align-self:center;
 }
+span + span{
+    color: #1E5128;
+}
 .postImage img{
     width: 100%;
-    height:38%; 
+    height:100%; 
+    border-radius: 5px;
 }
-footer {
+#footer {
     display:flex;
     justify-content:center;
-    border: 1px solid #646174;
-    background-color: #a2ccea;
+    border: 1px solid #1E5128;
+    background-color: #4E9F3D;
     border-radius: 10px;
     margin-top: 10px;
+    color: #1E5128;
 }
