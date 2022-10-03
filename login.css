@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  nav {
+    display:flex;
+    justify-content:space-between;
+    align-self:center;  
+    color:#191A19;
+    padding-left:10px;
+    padding-right:10px;
+    border: 1px solid #000000;
+    background-color: #6e6e6e;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px #000000;
+}
+nav div{
+    display:flex;
+    align-self:center;
+}
+.loginbox {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
