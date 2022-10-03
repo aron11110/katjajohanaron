@@ -70,3 +70,8 @@ div > h4, p1 {
 h2:hover {
     color: #ffffff;
 }
+.btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
