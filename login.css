@@ -61,3 +61,12 @@ div > h4, p1 {
 .hover:hover {
     color: #120079;
 }
+@media screen and (max-width: 400px) {
+    div.loginbox {
+        width: auto;
+        height: 500px;
+    }
+}
+h2:hover {
+    color: #ffffff;
+}
