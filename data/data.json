@@ -3,77 +3,77 @@
       "id": 1,
       "time": "2022-10-20T12:00:00Z",
       "author": "Zoe Ryszard",
-      "picture": "media/postMedia/img1.jpg",
+      "picture": "./media/postMedia/img1.jpeg",
       "text": "Their could can widen ten she any. As so we smart those money in. Am wrote up whole so tears sense oh."
     },
     {
         "id": 2,
         "time": "2022-10-20T13:00:00Z",
         "author": "Amelie Summers",
-        "picture": "media/postMedia/img2.jpg",
+        "picture": "./media/postMedia/img2.jpg",
         "text": "Absolute required of reserved in offering no. How sense found our those gay again taken the."
       },
       {
         "id": 3,
         "time": "2022-10-20T14:00:00Z",
         "author": "Rami Lacey",
-        "picture": "media/postMedia/img3.jpg",
+        "picture": "./media/postMedia/img3.jpg",
         "text": "Had mrs outweigh desirous sex overcame. Improved property reserved disposal do offering me"
       },
       {
         "id": 4,
         "time": "2022-10-21T12:00:00Z",
         "author": "Kwame Noble",
-        "picture": "media/postMedia/img4.jpg",
+        "picture": "./media/postMedia/img4.jpg",
         "text": "Talent she for lively eat led sister. Entrance strongly packages she out rendered get quitting denoting led."
       },
       {
         "id": 5,
         "time": "2022-10-21T13:00:00Z",
         "author": "Kierran Vo",
-        "picture": "media/postMedia/img5.jpg",
+        "picture": "./media/postMedia/img5.jpeg",
         "text": "Dwelling confined improved it he no doubtful raptures. Several carried through an of up attempt gravity."
       },
       {
         "id": 6,
         "time": "2022-10-21T14:00:00Z",
         "author": "Oliwia Justice",
-        "picture": "media/postMedia/img6.jpg",
+        "picture": "./media/postMedia/img6.jpeg",
         "text": "Situation to be at offending elsewhere distrusts if. Particular use for considered projection cultivated"
       },
       {
         "id": 7,
         "time": "2022-10-22T12:00:00Z",
         "author": "Anya Woodcock",
-        "picture": "media/postMedia/img7.jpg",
+        "picture": "./media/postMedia/img7.jpeg",
         "text": "Worth of do doubt shall it their. Extensive existence up me contained he pronounce do"
       },
       {
         "id": 8,
         "time": "2022-10-22T13:00:00Z",
         "author": "Eddison Key",
-        "picture": "media/postMedia/img8.jpg",
+        "picture": "./media/postMedia/img8.jpeg",
         "text": "Excellence inquietude assistance precaution any impression man sufficient."
       },
       {
         "id": 9,
         "time": "2022-10-22T14:00:00Z",
         "author": "Tyreke Bouvet",
-        "picture": "media/postMedia/img9.jpg",
+        "picture": "./media/postMedia/img9.jpeg",
         "text": "Certainty listening no no behaviour existence assurance situation is. Because add why not esteems amiable him."
       },
       {
         "id": 10,
         "time": "2022-10-23T12:00:00Z",
         "author": "Bodhi York",
-        "picture": "media/postMedia/img10.jpg",
+        "picture": "./media/postMedia/img10.jpeg",
         "text": "Interested the unaffected mrs law friendship add principles. Indeed on people do merits to."
       },
       {
         "id": 11,
         "time": "2022-10-23T13:00:00Z",
         "author": "Constance Foley",
-        "picture": "media/postMedia/img11.jpg",
+        "picture": "./media/postMedia/img11.jpeg",
         "text": "Court heard which up above hoped grave do. Answer living law things either sir bed length."
       }
 ]
