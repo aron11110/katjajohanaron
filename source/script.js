@@ -29,7 +29,27 @@ function posts(json) {
     }
 }
 
+function popup(){
+    let photoParent = document.getElementById('profile')
+    console.log(photoParent)
+    let infoText = ''
+    infoText += userInfo.name + '\n' + userInfo.email + '\nlogout'
+    let info = document.createTextNode(infoText)
+    let photo = document.getElementById('profileInfo')
+    photo.appendChild(info)
+    photoParent.onclick = function(){
+        console.log('yes')
+        if (photo.style.display === "none") {
+            photo.style.display = "block";
+          } else {
+            photo.style.display = "none";
+          }
+        console.log(photo.style.visibility)
+}
+
+
 window.onload = function() {
+    popup()
     let divs = document.getElementsByTagName("div")
     console.log(divs)
     fetch("https://api.npoint.io/5d82e9be4d319f1563e1")
