@@ -10,8 +10,8 @@ function posts(json) {
         let postText = document.createElement('p');
         postText.innerText = post.text;
         let postPicture = document.createElement('img');
-        postPicture.src = "media/postMedia/img1.jpeg";
-        postPicture.src = post.postpicture
+        // postPicture.src = "media/postMedia/img1.jpeg";
+        postPicture.src = post.picture
         postPicture.width = '300';
         postPicture.height = '300';
         div.appendChild(postAuthor);
@@ -33,7 +33,7 @@ window.onload = function() {
     let divs = document.getElementsByTagName("div")
     console.log(divs)
 
-    fetch("https://api.npoint.io/5d82e9be4d319f1563e1")
+    fetch("./data/data.json")
         .then(res => res.json())
         .then(json => posts(json))
 }
