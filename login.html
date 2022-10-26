@@ -25,16 +25,15 @@
         <h5>or</h5><br>
         <h5>Please log in</h5><br>
         <div>
-            <form>
-            <input type="text" placeholder="Email" id="email" name="email"><br>
-            <input type="password" placeholder="Password" id="pward" name="pward"><br>
-            <a href="index.html">
-                <input type="submit" value="Log in" class="btn"> 
-            </a>
+            <form action="index.html">
+                <input type="text" placeholder="Email" id="email" name="email" pattern=".{3,}" title="Must contin atleast 3 charcters"><br>
+                <input type="password" placeholder="Password" id="pward" name="pward" pattern=".{3,}" title="Must contin atleast 3 charcters"><br>
+                <input type="submit" value="Log in" class="btn">
             </form>
         </div>
         <p1 class="hover">Forget password</p1>
     </div>
+
     
     
 </body>
