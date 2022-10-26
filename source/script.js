@@ -1,4 +1,5 @@
 function posts(json) {
+    let post_div = document.getElementById("posts_div")
     for (let i=0; i < json.length; i++) {
         let post=json[i];
         let div = document.createElement('div');
@@ -15,13 +16,14 @@ function posts(json) {
         div.appendChild(postTime);
         div.appendChild(postText);
         div.appendChild(postPicture);
-        document.author.appendChild(div);
+        
         if(i%2==0){
             div.style.backgroundColor='#F0FFFF'
         }
         else{
             div.style.backgroundColor='#FF7F50'
         }
+        post_div.appendChild(div);
     }
 }
 
