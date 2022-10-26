@@ -1,14 +1,31 @@
-function posts(json) {
-    for (let i=0; i < json.length; i++) {
+let userInfo={name:'Driscoll Jaquelyn', email:'Driscoll.Jaquelyn@mail.mail'}
+
+window.onload = function(){
+    let photoParent = document.getElementById('profile')
+    console.log(photoParent)
+    let infoText = ''
+    infoText += userInfo.name + '\n' + userInfo.email + '\nlogout'
+    let info = document.createTextNode(infoText)
+    let photo = document.getElementById('profileInfo')
+    photo.appendChild(info)
+    photoParent.onclick = function(){
+        console.log('yes')
+        if (photo.style.display === "none") {
+            photo.style.display = "block";
+          } else {
+            photo.style.display = "none";
+          }
+        console.log(photo.style.visibility)
+
         
+        /*
+        let txt = document.createElement('p')
+        let info = document.createTextNode('some text')
+        txt.id = 'profileInfo'
+        txt.appendChild(info)
+        photoParent.appendChild(txt)
+        */
     }
 }
 
-window.onload = function() {
-    let divs = document.getElementsByTagName("div")
-    console.log(divs)
 
-    fetch()
-}
-
-aasfd

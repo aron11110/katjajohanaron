@@ -89,3 +89,17 @@ span + span{
     margin-top: 10px;
     color: #1E5128;
 }
+#profileInfo{
+    width:150px;
+    border: 1px solid #1E5128;
+    background-color: #4E9F3D;
+    border-radius: 10px;
+    font-size: 10px;
+    padding:5px;
+    display:none;
+
+}
+.popup{
+    display:flex;
+    justify-content:flex-end;
+}
