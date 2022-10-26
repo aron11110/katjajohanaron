@@ -10,7 +10,7 @@ function posts(json) {
         let postText = document.createElement('p');
         postText.innerText = post.text;
         let postPicture = document.createElement('img');
-        postPicture.src = "./media/postMedia/img1.jpeg";
+        postPicture.src = "./media/postMedia";
         postPicture.width = '300';
         postPicture.height = '300';
         div.appendChild(postAuthor);
@@ -19,10 +19,10 @@ function posts(json) {
         div.appendChild(postPicture);
         
         if(i%2==0){
-            div.style.backgroundColor='#F0FFFF'
+            div.style.backgroundColor='#D2691E'
         }
         else{
-            div.style.backgroundColor='#FF7F50'
+            div.style.backgroundColor='#F0E68C'
         }
         post_div.appendChild(div);
     }
