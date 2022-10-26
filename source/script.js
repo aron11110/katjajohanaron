@@ -30,6 +30,7 @@ function posts(json) {
 }
 
 function popup(){
+    let userInfo={name:'Driscoll Jaquelyn', email:'Driscoll.Jaquelyn@mail.mail'}
     let photoParent = document.getElementById('profile')
     console.log(photoParent)
     let infoText = ''
@@ -45,6 +46,7 @@ function popup(){
             photo.style.display = "none";
           }
         console.log(photo.style.visibility)
+    }
 }
 
 
