@@ -4,17 +4,18 @@ function posts(json) {
         let post=json[i];
         let div = document.createElement('div');
         let postTime = document.createElement('h3');
-        let rightTime = new Date(post.time)
+        let rightTime = Date(post.time)
         postTime.innerText = rightTime.toString();
         let postAuthor = document.createElement('p');
         postAuthor.innerText = post.author;
         let postText = document.createElement('p');
         postText.innerText = post.text;
         let postPicture = document.createElement('img');
+        postPicture.id= 'postedPost'
         // postPicture.src = "media/postMedia/img1.jpeg";
         postPicture.src = post.picture
-        postPicture.width = '300';
-        postPicture.height = '300';
+        postPicture.width = '200';
+        postPicture.height = '200';
         div.appendChild(postAuthor);
         div.appendChild(postTime);
         div.appendChild(postText);
