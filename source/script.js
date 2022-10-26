@@ -4,7 +4,8 @@ function posts(json) {
         let post=json[i];
         let div = document.createElement('div');
         let postTime = document.createElement('h3');
-        postTime.innerText = post.time;
+        let rightTime = new Date(post.time)
+        postTime.innerText = rightTime.toString();
         let postAuthor = document.createElement('p');
         postAuthor.innerText = post.author;
         let postText = document.createElement('p');
@@ -32,8 +33,8 @@ function posts(json) {
 window.onload = function() {
     let divs = document.getElementsByTagName("div")
     console.log(divs)
-
     fetch("./data/data.json")
+    // fetch("https://api.npoint.io/5d82e9be4d319f1563e1")
         .then(res => res.json())
         .then(json => posts(json))
 }
