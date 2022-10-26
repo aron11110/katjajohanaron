@@ -1,6 +1,5 @@
 let userInfo={name:'Driscoll Jaquelyn', email:'Driscoll.Jaquelyn@mail.mail'}
-
-window.onload = function(){
+let popup = function(){
     let photoParent = document.getElementById('profile')
     console.log(photoParent)
     let infoText = ''
@@ -18,5 +17,6 @@ window.onload = function(){
         console.log(photo.style.visibility)
     }
 }
+
 
 
