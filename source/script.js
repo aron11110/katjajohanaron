@@ -16,15 +16,6 @@ window.onload = function(){
             photo.style.display = "none";
           }
         console.log(photo.style.visibility)
-
-        
-        /*
-        let txt = document.createElement('p')
-        let info = document.createTextNode('some text')
-        txt.id = 'profileInfo'
-        txt.appendChild(info)
-        photoParent.appendChild(txt)
-        */
     }
 }
 
