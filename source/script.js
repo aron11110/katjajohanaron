@@ -1,5 +1,5 @@
 let userInfo={name:'Driscoll Jaquelyn', email:'Driscoll.Jaquelyn@mail.mail'}
-let popup = function(){
+function popup(){
     let photoParent = document.getElementById('profile')
     console.log(photoParent)
     let infoText = ''
