@@ -4,9 +4,7 @@ function posts(json) {
         let post=json[i];
         let div = document.createElement('div');
         let postTime = document.createElement('h3');
-        let d = Date(post.time)
-        var date_format_str = d.getFullYear().toString()+"-"+((d.getMonth()+1).toString().length==2?(d.getMonth()+1).toString():"0"+(d.getMonth()+1).toString())+"-"+(d.getDate().toString().length==2?d.getDate().toString():"0"+d.getDate().toString())+" "+(d.getHours().toString().length==2?d.getHours().toString():"0"+d.getHours().toString())+":"+((parseInt(d.getMinutes()/5)*5).toString().length==2?(parseInt(d.getMinutes()/5)*5).toString():"0"+(parseInt(d.getMinutes()/5)*5).toString())+":00";
-        postTime.innerText = date_format_str
+        postTime.innerText = post.time;
         let postAuthor = document.createElement('p');
         postAuthor.innerText = post.author;
         let postText = document.createElement('p');
@@ -57,12 +55,8 @@ window.onload = function() {
     popup()
     let divs = document.getElementsByTagName("div")
     console.log(divs)
-<<<<<<< HEAD
-    fetch("https://api.npoint.io/5d82e9be4d319f1563e1")
-=======
     fetch("./data/data.json")
     // fetch("https://api.npoint.io/5d82e9be4d319f1563e1")
->>>>>>> Arons_branch
         .then(res => res.json())
         .then(json => posts(json))
 }
