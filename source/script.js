@@ -10,7 +10,8 @@ function posts(json) {
         let postText = document.createElement('p');
         postText.innerText = post.text;
         let postPicture = document.createElement('img');
-        postPicture.src = "./media/postMedia/img1.jpeg";
+        postPicture.src = "media/postMedia/img1.jpeg";
+        // postPicture.src = post.postpicture
         postPicture.width = '300';
         postPicture.height = '300';
         div.appendChild(postAuthor);
