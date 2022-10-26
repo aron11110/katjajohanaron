@@ -89,3 +89,10 @@ span + span{
     margin-top: 10px;
     color: #1E5128;
 }
+.post {
+    width: 80%;
+    position: relative;
+    padding: 10px;
+    margin: 10px auto;
+    border: 1px solid gray;
+}
