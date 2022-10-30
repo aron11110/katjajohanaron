@@ -61,10 +61,16 @@ article {
     box-shadow: 2px 2px 6px #000000;
 }
 
-article > * {
+.article > * {
     margin-top:4px;
 }
+
+#posterSpan * {
+    margin:5px;
+}
+
 header {
+    margin:5px;
     display:flex;
     justify-content:space-between;
 }
@@ -91,12 +97,14 @@ span + span{
 }
 #profileInfo{
     width:150px;
-    border: 1px solid #1E5128;
-    background-color: #4E9F3D;
+    border: 1px solid #061409;
+    background-color: #0f5e65;
     border-radius: 10px;
     font-size: 10px;
     padding:5px;
     display:none;
+    position:fixed;
+    box-shadow: 6px 6px 6px #000000;
 
 }
 .popup{
