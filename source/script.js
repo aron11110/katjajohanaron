@@ -11,7 +11,6 @@ function posts(json) {
         postText.innerText = post.text;
         let postPicture = document.createElement('img');
         postPicture.id= 'postedPost'
-        // postPicture.src = "media/postMedia/img1.jpeg";
         postPicture.src = post.picture
         postPicture.width = '200';
         postPicture.height = '200';
