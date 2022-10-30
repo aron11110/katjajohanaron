@@ -4,7 +4,7 @@ function posts(json) {
         let post=json[i];
         let div = document.createElement('div');
         let postTime = document.createElement('h3');
-        postTime.innerText = post.time;
+        postTime.innerText = datetime(post.time);
         let postAuthor = document.createElement('p');
         postAuthor.innerText = post.author;
         let postText = document.createElement('p');
@@ -47,6 +47,12 @@ function popup(){
           }
         console.log(photo.style.visibility)
     }
+}
+
+function datetime(universal) {
+    let time = new Date(universal)
+    const format = new Intl.DateTimeFormat("et-EE")
+    return format.format(time)
 }
 
 
